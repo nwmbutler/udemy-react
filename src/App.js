@@ -50,7 +50,7 @@ class App extends Component {
         <h1>Hi, I'm a React app</h1>
         <button
           style={style}
-          onClick={this.togglePersonHandler}>Switch Name</button>
+          onClick={this.togglePersonHandler}>Toggle people</button>
         { this.state.showPerson === true ? 
           <div>
         <Person 
